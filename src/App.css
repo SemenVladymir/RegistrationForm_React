@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+header {  
+  background-color: rgb(20, 103, 138);  
+  position: fixed; 
+  border-bottom: #282c34;
+  top: 0;  
+  z-index: 100;  
+  width: 100%;  
+  }
+  
+  .head {
+    margin-bottom: 1em;
+  }
+
+body {
+  background-color: #121313;
+  margin-top: 105px;
+}
+
+.container {
+  padding: 1em;
+  column-count: 3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  flex: auto;
+  border-radius: 10px;
+
+}
+
+.item-content {
+  margin: -5px;
+ margin-bottom: .5em;
+}
